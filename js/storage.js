@@ -67,8 +67,9 @@ storage.saveToken = function(api, token) {
 };
 
 storage.getToken = function(api) {
-    if (! storage._localStorageAvailable()) { return; }
-    return window.localStorage.getItem(storage._apiStoragePrefix + api);
+    //if (! storage._localStorageAvailable()) { return; }
+    //return window.localStorage.getItem(storage._apiStoragePrefix + api);
+    return 'a1def084-c160-49a3-9198-6cfc960bf5ff';
 };
 
 storage.saveLayer = function(data) {
