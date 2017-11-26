@@ -66,7 +66,7 @@ p.center {
 }
 
 hr {
-    display: block;
+    display: none;
     height: 0;
     width: 0;
     margin: 0 auto -1em auto;
@@ -147,10 +147,13 @@ a {
     }
 }
 
-#response { width:50% }
+#hContainer { width:50% }
 A #doc {display:none; }
 #credentialsFrame { display:none}
 #pathFrame, #urlDiv { display:none }
 #parameters DIV { display:none;}
 #parameters DIV:nth-child(-n+2) { display:flex;}
 #createdRequestFrame H3 { display:none;}
+#status { display:none; } 
+
+.leaflet {z-index:30000; }
