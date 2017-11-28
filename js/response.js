@@ -127,7 +127,7 @@ response.render = function(context, json, type, key, idx) {
     head.append(button);
 
     var data = $('<div class="data">')
-//        .append($('<div class="extended">').hide())
+        .append($('<div class="extended">').hide())
         .append($('<div class="map">').hide())
         .append($('<div class="code">').hide());
 

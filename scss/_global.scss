@@ -156,9 +156,9 @@ A #doc {display:none; }
 #createdRequestFrame H3 { display:none;}
 #data .head {display:none;}
 #status { display:none; } 
-.leaflet {z-index:30000; }
 
-
+.leaflet {z-index:1000}
+.ui-widget { z-index:2001!important;}
 #response2 { background-color:red;}
 #allrep { width:100%;}
 #allrep TD { width:50%; vertical-align:top;}

@@ -40,8 +40,8 @@ map._should_draw_section_start = function(option) {
 map._should_draw_section_end = function(option) {
     return option & 1;// jshint ignore:line
 };
-map.STARTTEXT = 'Start';
-map.ENDTEXT = 'End';
+map.STARTTEXT = 'Départ';
+map.ENDTEXT = 'Fin';
 map.makeFeatures = {
     region: function(context, json) {
         if (json.shape) {
