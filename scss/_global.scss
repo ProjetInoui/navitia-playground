@@ -163,3 +163,7 @@ A #doc {display:none; }
 #response2 { background-color:red;}
 #allrep { width:100%;}
 #allrep TD { width:50%; vertical-align:top;}
+
+#dtDate, #dtMois, #dtAnnee, #dtHeure, #dtMin { border:1px solid #000;}
+#dtDate,  #dtHeure, #dtMin {     min-width: auto; text-align:center;}
+#dtMois, #dtAnnee {}
